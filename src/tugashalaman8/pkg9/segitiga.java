@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  */
 public class segitiga {
     static double luasSegitiga(double alas, double tinggi){
-        return (alas * tinggi)/2;
+        return (1.0/2.0) * alas * tinggi;
     }
     
     public static void main(String[] args) {
