@@ -17,13 +17,16 @@ public class PersegiPanjang {
     public static void main(String[] args) {
     // Input panjang
     
-    double panjang = Double.parseDouble(JOptionPane.showInputDialog("Masukkan panjang: "));
+    double panjang = Double.parseDouble
+        (JOptionPane.showInputDialog("Masukkan panjang: "));
     
     // Input lebar 
-    double lebar = Double.parseDouble(JOptionPane.showInputDialog("Masukkan lebar: "));
+    double lebar = Double.parseDouble
+        (JOptionPane.showInputDialog("Masukkan lebar: "));
     
     double luas = luasPP(panjang,lebar);
     
-    JOptionPane.showMessageDialog(null,"Luas persegi panjang = " + luas);
+    JOptionPane.showMessageDialog
+        (null,"Luas persegi panjang = " + luas);
     }
 }

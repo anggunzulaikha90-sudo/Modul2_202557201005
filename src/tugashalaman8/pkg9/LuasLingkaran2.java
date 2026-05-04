@@ -20,6 +20,6 @@ public class LuasLingkaran2 {
      
     double luas = luasLingkaran(jariJari);
     
-    JOptionPane.showMessageDialog(null,"Luas segitiga = " + luas);
+    JOptionPane.showMessageDialog(null,"Luas lingkaran = " + luas);
     }
 }

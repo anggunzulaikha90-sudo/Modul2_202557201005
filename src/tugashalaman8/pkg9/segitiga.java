@@ -17,10 +17,12 @@ public class segitiga {
     public static void main(String[] args) {
     // Input alas
     
-    double alas = Double.parseDouble(JOptionPane.showInputDialog("Masukkan alas: "));
+    double alas = Double.parseDouble
+        (JOptionPane.showInputDialog("Masukkan alas: "));
     
     // Input tinggi
-    double tinggi = Double.parseDouble(JOptionPane.showInputDialog("Masukkan tinggi: "));
+    double tinggi = Double.parseDouble
+       (JOptionPane.showInputDialog("Masukkan tinggi: "));
     
     double luas = luasSegitiga(alas,tinggi);
     
