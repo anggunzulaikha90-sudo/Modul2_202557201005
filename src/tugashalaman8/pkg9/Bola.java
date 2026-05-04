@@ -17,11 +17,11 @@ public class Bola {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Bola vb = new Bola();
-        System.out.println("Masukkan diameter kerucut: ");
+        System.out.println("Masukkan diameter bola : ");
         int m = input.nextInt();
         
         double hasil = vb.volumeBola(m);
-        System.out.println("Volume kerucut: " + hasil);
+        System.out.println("Volume bola: " + hasil);
         input.close();
     }
 }
